@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/gemini-crypto",
+  "title": "Gemini Crypto",
+  "description": "Gemini Exchange MCP (public endpoints).",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/gemini-crypto",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-gemini-crypto",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/gemini-crypto/mcp"
+    }
+  ]
+}
