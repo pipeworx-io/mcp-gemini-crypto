@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/gemini-crypto",
   "title": "Gemini Crypto",
   "description": "Gemini Exchange MCP (public endpoints).",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://pipeworx.io/packs/gemini-crypto",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-gemini-crypto",

@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-gemini-crypto",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Gemini Exchange MCP (public endpoints).",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-a56aca8566e0fc18e8acad770f3074a596886c193f6039512d09943c423ccb22",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-05bbc741580c65a2203835bc99223717b78f463d72ad45170519871df90991e7",
+    "sourceCommit": "91681e9a4a137fa0051d58e32f38c64b6334af5c"
   }
 }
