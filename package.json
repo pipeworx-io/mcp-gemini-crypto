@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-gemini-crypto",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Gemini Exchange MCP (public endpoints).",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-gemini-crypto": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "gemini-crypto"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-gemini-crypto.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/gemini-crypto",
   "pipeworx": {
-    "sourceHash": "v1-500061194ebdfeddfc500e2b8cf9a88ed2cf962c58cf0e7b09b1871306f17515",
-    "sourceCommit": "445bacc5596a845c12d6945fbfcdf330ef60dcc4"
+    "mode": "gateway",
+    "slug": "gemini-crypto",
+    "gatewaySlug": "gemini-crypto",
+    "sourceHash": "v1-6ede919b91c86c77d346d6e6565ce5433bf0d0305f525780d09297133046a514",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }
