@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-gemini-crypto",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Gemini Exchange MCP (public endpoints).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "gemini-crypto",
     "gatewaySlug": "gemini-crypto",
-    "sourceHash": "v1-6ede919b91c86c77d346d6e6565ce5433bf0d0305f525780d09297133046a514",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-5e9bbc7b0f12e0e9170b2f90ee07289802e07cf12a2a420db6020bd818698edf",
+    "sourceCommit": "030233f6b150a38a44421f88a5fcbad123f0fea8"
   }
 }
